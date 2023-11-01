@@ -2,7 +2,7 @@
 include "../../path.php";
 include SITE_ROOT ."/app/database/db.php";
 
-
+time();
 $errMsg=[];
 $topics=selectAll('topics');
 $posts=selectAll('posts');
